@@ -1,7 +1,7 @@
+import React, { Component } from 'react';
 import "./About.css";
 import profpic from "../assets/profpic.jpg";
-import React, { Component } from 'react';
-  
+
 export default class About extends Component {
   render() {
     return (
@@ -23,8 +23,10 @@ export default class About extends Component {
           <div className="centered">
             <div className="name_title">Harini Kumar</div>
             <div className="brief_description">
-              I like to read <br></br>
-              I like to draw <br></br>
+              <p>
+                Hi! My name is Harini Kumar, and I am from Dallas, TX. I am a rising sophomore at Texas A&M University 
+                pursuing a major in Computer Science. In my free time, I enjoy drawing, playing with my dog, and spending time with friends.
+              </p>
             </div>
           </div>
         </div>
